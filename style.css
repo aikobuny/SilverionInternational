@@ -601,3 +601,39 @@ h3 {
 	font-size: 10px;
 }
 }
+
+.merchants {
+	background: linear-gradient(to left, #7a60ff, #cd9ffa);
+	padding: 100px;
+}
+.merchants_container {
+	padding: 0;
+}
+.merchants_button {
+    position: relative;
+    display: inline-block;
+    width: 210px;
+    border: 0;
+    border-radius: 1vw;
+    padding: 10px;
+    background-color: #ffffff;
+    color: #000000;
+    padding-right: 50px;
+    margin: 5px;
+}
+.merchants_button img {
+    position: relative;
+    display: block;
+    width: 5%;
+    padding: 1px;
+    scale: 6;
+    left: 10%;
+    bottom: -10px;
+}
+.merchants_button a {
+	position: relative;
+	display: block;
+	bottom: 2px;
+	text-align: left;
+	left: 50px;
+}
