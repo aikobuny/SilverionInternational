@@ -115,3 +115,5 @@ function merchants() {
         parent.appendChild(merchants_button);
     }
 }
+
+console.log("version 1")
