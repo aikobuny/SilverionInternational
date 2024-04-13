@@ -104,7 +104,7 @@ function merchants() {
         let merchants_button = document.createElement('div');
         merchants_button.classList.add('merchants_button')
         let img = document.createElement('img');
-        img.setAttribute('src', `//images/icons/${key}.png`);
+        img.setAttribute('src', `${window.location.href}//images/icons/${key}.png`);
         let a = document.createElement('a');
         a.innerHTML = key;
         if (merchants_url[key] != '') {
